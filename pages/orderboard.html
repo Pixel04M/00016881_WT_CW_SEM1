@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scripts/style.css">
+    <script src="../scripts/java.js"></script>
+    <title>Fast Food Restaurant</title>
+</head>
+<body>
+    <header>
+        <h1>Fast Food Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html"><button>Home</button></a></li>
+                <li><a href="orderboard.html"><button>Order</button></a></li>
+                <li><a href= "Aboutus.html"><button>About us</button></a>
+                <li><a href="Feddbackpage.html"><button>Rate Us</button></a></li>  
+                <li><a href="loactionpage.html"><button>We are available in</button></a></li>  
+                <li><a href="signup.html"><button>Signup</button></a></li>  
+            </ul>
+        </nav>
+    </header>
+    <div class="order-board" id="orderBoard"></div>
+    <div class="foods">
+        <p>Foods</p>
+    </div>
+    <div class="product-list" onclick="addToOrder(event)">
+        
+        <img src="../images/cheeseburger.jpg" alt="Burger" data-name="Burger" data-price="5.99" class="product1">
+        <p>Burger</p>
+        <img src="../images/fluffscreamer burger.jpg" alt="Pizza" data-name="Pizza" data-price="8.99" >
+        <p>Fluffscreamer</p>
+        <img src="../images/lavash.jpg" alt="Pizza" data-name="Lavash" data-price="7.10" >
+        <p>Lavash</p>
+        <img src="../images/burger.jpg" alt="Pizza" data-name="Regular Burger" data-price="7" >
+        <p>Regular Burger</p>
+        <img src="../images/deepfriedsnacks.jpg" alt="Deep fried Snacks" data-name="Deep FRied Snacks" data-price="10" >
+        <p>Fried Snacks</p>
+    </div>
+    <div class="drinks"><p>Drinks</p></div>
+    <div class="product-list" onclick="addToOrder(event)">
+        
+        <img src="../images/download (1).jpg" alt="Burger" data-name="Pepsi" data-price="5.99" class="product1">
+        <p>Pepsi</p>
+        <img src="../images/download (2).jpg" alt="Coca cola" data-name="Coca cola" data-price="8.99" >
+        <p>Coca cola</p>
+        <img src="../images/fanta.jpg" alt="Fanta" data-name="Fanta" data-price="7.10" >
+        <p>Fanta</p>
+        <img src="../images/pepsi 3.jpg" alt="Pizza" data-name="Pepsi 2L" data-price="7" >
+        <p>Peps 2L</p>
+        <img src="../images/rc.jpg" alt="Deep fried Snacks" data-name="Rc cola" data-price="10" >
+        <p>RC cola</p>
+    </div>
+
+        
+    </div>
+    <button class="order-button" onclick="submitOrder()">Order Now</button>
+
+</body>  
+</html>  
