@@ -1,5 +1,5 @@
 
-
+/*feedbacj page */
 function submitFeedback() {
     var name = document.getElementById('name').value;
     var feedback = document.getElementById('feedback').value;
@@ -10,7 +10,7 @@ function submitFeedback() {
         feedbackItem.innerHTML = '<strong>' + name + ':</strong> ' + feedback;
         feedbackList.appendChild(feedbackItem);
 
-        // Clear the form fields
+        // Clearing  the form fields
         document.getElementById('name').value = '';
         document.getElementById('feedback').value = '';
     } else {
@@ -21,12 +21,12 @@ function submitFeedback() {
 var orderList = [];
 
 function addToOrder(event) {
-    // Check if the clicked element is an image
+    
     if (event.target.tagName === 'IMG') {
         var productName = event.target.getAttribute('data-name');
         var productPrice = parseFloat(event.target.getAttribute('data-price'));
 
-        // Add the selected product to the order list
+        
         orderList.push({ name: productName, price: productPrice });
 
         // Update the UI
