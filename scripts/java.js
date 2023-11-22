@@ -92,6 +92,6 @@ function submitRating(event) {
 function showThankYouMessage(rating) {
     const thankYouMessage = document.getElementById('thank-you-message');
     thankYouMessage.style.display = 'block';
-    thankYouMessage.textContent = `Thank you for rating us out of  ${rating} stars!`;
+    thankYouMessage.textContent = `Thank you for rating us 5 out of   ${rating} stars!`;
 }
 
