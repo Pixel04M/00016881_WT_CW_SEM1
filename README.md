@@ -1,7 +1,10 @@
 # 00016881_WT_CW_SEM1
 Project name: Best Food Online Platform
+
 Link: https://00016881-wt-cw-sem-1-ts8g.vercel.app/
+
 GitHub link: https://github.com/Pixel04M/00016881_WT_CW_SEM1.git
+
 PROJECT SHORT DESCRIPTION:
     "Best Food," my project, aims to create a dynamic and user-friendly internet platform for a fast-food business. The major goal is to give clients an entertaining and smooth experience as they browse the 
     menu, place orders, and engage with other services.
