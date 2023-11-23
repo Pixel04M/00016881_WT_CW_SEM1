@@ -1,7 +1,7 @@
 # 00016881_WT_CW_SEM1
 Project name: Best Food Online Platform
 
-Company barnd Name : Best Food 
+Company brand Name : Best Food 
 
 Instagramm link : https://www.instagram.com/bestfood_aroundtheworld/
 
