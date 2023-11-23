@@ -1,6 +1,10 @@
 # 00016881_WT_CW_SEM1
 Project name: Best Food Online Platform
 
+Company barnd Name : Best Food 
+
+Instagramm link : https://www.instagram.com/bestfood_aroundtheworld/
+
 Link: https://00016881-wt-cw-sem-1-ts8g.vercel.app/
 
 GitHub link: https://github.com/Pixel04M/00016881_WT_CW_SEM1.git
